@@ -431,11 +431,7 @@ OBJSIZE		= llvm-size
 STRIP		= llvm-strip
 else
 #CC		= $(CROSS_COMPILE)gcc
-<<<<<<< HEAD
-CC    = $(srctree)/toolchain/clang/host/linux-x86/clang-r383902/bin/clang
-=======
 CC    ?= $(srctree)/toolchain/clang/host/linux-x86/clang-r383902/bin/clang
->>>>>>> 35c364481af3 (makefile: Do not use samsung default toolchain path)
 #CC    = ../PLATFORM/prebuilts/clang/host/linux-x86/clang-r383902/bin/clang
 LD		= $(CROSS_COMPILE)ld
 AR		= $(CROSS_COMPILE)ar
